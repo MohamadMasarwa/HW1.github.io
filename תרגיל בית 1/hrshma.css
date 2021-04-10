@@ -17,7 +17,7 @@ input[type=email], select {
     box-sizing: border-box;
   }
   
-  input[type=submit] {
+  input[type=button] {
     width: 100%;
     background-color:red;
     color: black;
@@ -67,4 +67,24 @@ input[type=email], select {
     padding: 10px;
 border-radius: 20px;  
 background-color:aqua;
+}
+nav a{
+	color: rgb(82, 231, 219);
+  background-color:gray;
+	text-decoration: none;
+	padding: 7px 25px;
+	display: inline-block;
+  font-style: italic;
+}
+.fixed-header{
+	top: 0;
+}
+.fixed-footer{
+  background-color: gray;
+	bottom: 0;
+}
+.container{
+	width: 100%;
+  background-color: cyan;
+	margin: 0 auto; /* Center the DIV horizontally */
 }
